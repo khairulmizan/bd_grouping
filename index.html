@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>IMD 311</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<style>
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+
+<!-- Navbar (sit on top) -->
+<div class="top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">BON APPETIT CAFE</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" 
+        style="max-width:2500px;min-width:5px" id="home">
+  <img class="w3-image" src="pasta.jpg" alt="type of pasta" width="100%" height="800">
+  <div>
+    <h1 style="color:black;" class="large"><b>"obsessed with our food but not be obesity"</b></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="bread.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Cafe</h1><br>
+      <h5 class="w3-center">Since 2018</h5>
+        <p class="w3-large"><strong>The Cafe was founded by Mr. Khairul Mizan and partners in 2018 and were located in Kota Kemuning. The concpet of this cafe is western aesthetic inspired by the late night scenary of Paris in the mid of july. you can enjoy tasty meals with a peaceful scenary whereby the cafe was surrounded with light of concrete city. The design of the bilding is concrete jungle where we decor the cafe with small indoors plants </strong> </p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Our cafe is also open to all customers. Customers especially teenagers definitely choose this cafe as their "favorite spot" to fill their free time or "hangout" with their friends, have fun with them and have the conversations after a long time they have not met.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>choux à la crème au citron et fruits frais</h4>
+      <p class="w3-text-grey">Puff filled with lemon custard cream serve with barries RM13/7pcs</p><br>
+    
+      <h4>parfait au matcha</h4>
+      <p class="w3-text-grey">Layered spounge cake with matcha cream on top RM8/cup</p><br>
+    
+      <h4>mélanger le macaron</h4>
+      <p class="w3-text-grey">Asortment flavoured macaroon RM3/1pc     </p><br>
+    
+      <h4>huile d'ail</h4>
+      <p class="w3-text-grey">The dish is made by lightly sautéing sliced, minced, or pressed garlic in olive oil, with the addition of dried red chili flakes, and tossing with spaghetti RM23/plate</p><br>
+    
+      <h4>lasagne au boeuf</h4>
+      <p class="w3-text-grey">Savoury rich tomato sauce, ooey gooey cheese, and al dente layers of noodles RM16.90</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="japanesesweetbread.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We understand your needs and we will serve the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Bon Appetit Cafe, Unit 27, 6, Jln Anggerik Vanilla BE 31/BE, Kota Kemuning, 40460 Shah Alam, Selangor</b></p>
+    <p>You can also contact us by phone 03-33584192 or email bonappetitcafe@gmail.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2021-1-14T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>BonAppetitCafe Since 2018<a href="https://www.w3schools.com/w3css/default.asp" title="footer" target="_blank" class="w3-hover-text-green"></a></p>
+</footer>
+
+</body>
+</html>
